@@ -41,7 +41,7 @@ public class App extends Application
 		var plasserFld = new TextField();
 		var redigerBtn = new Button("Rediger");
 		var avbrytBtn = new Button("Avbryt");
-		
+
 		var redigeringsTabell = new GridPane();
 		redigeringsTabell.add(romNummerLbl, 0, 0);
 		redigeringsTabell.add(romNummerFld, 1, 0);
@@ -53,8 +53,6 @@ public class App extends Application
 		redigeringsTabell.add(avbrytBtn, 2, 1, 1, 2);
 		
 		var vbox = new VBox(romTypeRad, romListe, redigeringsTabell);
-		
-		
 		
 		romTypeCombo.setOnAction((event) -> behandleHendelse(event));
 		
