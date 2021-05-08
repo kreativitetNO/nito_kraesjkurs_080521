@@ -1,0 +1,7 @@
+Auditorium;A100;50
+Auditorium;A101;40
+Seminarrom;S100;20
+Grupperom;G100;6
+Gruperom;G101;9
+Lab;L100;20
+Lab;L101;25
